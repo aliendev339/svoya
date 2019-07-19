@@ -1,7 +1,7 @@
 import React from "react"
 
 const Layout = ({ children }) => (
-  <div>
+  <div className="gradient text-white">
     {children}
   </div>
 )

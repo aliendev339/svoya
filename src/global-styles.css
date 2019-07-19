@@ -5,3 +5,7 @@
 .flex-50 {
   flex: 50%;
 }
+
+.gradient {
+  background: linear-gradient(118deg, rgb(31, 124, 212), rgb(0, 101, 255) 70%);
+}
