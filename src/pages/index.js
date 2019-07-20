@@ -1,33 +1,35 @@
 import React from "react"
 
 import Layout from "../components/layout"
-import List from "../components/list"
 
 import "../global-styles.css"
 
 export default () => (
   <Layout>
-    <div className="h-screen flex flex-wrap flex-col content-between">
-      <div className="flex-50 p-4">top-left</div>
-      <div className="p-4">
-        <List items={[
-          "Facebook",
-          "Instagram",
-          "Twitter",]}/>
+    <div className="h-screen relative text-gray-400">
+      <div className="p-4">Logo</div>
+      <div className="absolute bottom-0 left-0 p-4">
+        <ul>
+          <li>Facebook</li>
+          <li>Instagram</li>
+          <li>Twitter</li>
+        </ul>
       </div>
-      <div className="flex-50 text-right p-4">
-        <List items={[
-          "All Project",
-          "Architecture",
-          "Industrial Design",
-          "Interior",]}/>
+      <div className="absolute top-0 right-0 p-4 text-right">
+        <ul>
+          <li className="inline-block text-white font-semibold border-b-2 border-white">All Projects</li>
+          <li>Architecture</li>
+          <li>Industrial Design</li>
+          <li>Interior</li>
+        </ul>
       </div>
-      <div className="text-right p-4">
-        <List items={[
-          "Press",
-          "About Studio",
-          "Awards",
-          "Contact",]}/>
+      <div className="absolute bottom-0 right-0 p-4 text-right">
+        <ul>
+          <li>Press</li>
+          <li>About Studio</li>
+          <li>Awards</li>
+          <li>Contact</li>
+        </ul>
       </div>
     </div>
   </Layout>
