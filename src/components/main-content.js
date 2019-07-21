@@ -3,6 +3,7 @@ import React from "react"
 import Layer from "./layer"
 // import Nav from "./nav"
 import Overlay from "./overlay"
+import MenuButton from "./menu-button"
 
 const MainContent = () => (
   <section>
@@ -19,10 +20,7 @@ const MainContent = () => (
       <div className="h-screen w-screen flex flex-col justify-between items-start px-4 pt-4 pb-8">
         <div className="w-full flex justify-between items-start leading-none">
           <p className="font-bold">Logo</p>
-          <button className="w-8 flex flex-col items-end">
-            <span className="block w-full border-white border-t-2 pb-1"></span>
-            <span className="block w-2/3 border-white border-b-2"></span>
-          </button>
+          <MenuButton />
         </div>
         <div className="leading-snug">
           <h2 className="text-gray-100 text-xs">Interior</h2>
