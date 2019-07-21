@@ -2,7 +2,6 @@ import React from "react"
 
 const Nav = () => (
   <nav className="h-screen relative text-gray-400">
-    <div className="absolute top-0 p-4">Logo</div>
     <div className="absolute bottom-0 p-4">
       <ul>
         <li>Facebook</li>
