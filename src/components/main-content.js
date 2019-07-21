@@ -1,7 +1,6 @@
 import React from "react"
 
 import Layer from "./layer"
-// import Nav from "./nav"
 import Overlay from "./overlay"
 import MenuButton from "./menu-button"
 
