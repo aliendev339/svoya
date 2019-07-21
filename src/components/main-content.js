@@ -2,6 +2,7 @@ import React from "react"
 
 import Layer from "./layer"
 import Nav from "./nav"
+import Overlay from "./overlay"
 
 const MainContent = () => (
   <section>
@@ -12,7 +13,7 @@ const MainContent = () => (
         className="object-cover h-full w-screen" />
     </Layer>
     <Layer>
-      <div className="h-screen w-screen bg-black opacity-50" />
+      <Overlay />
     </Layer>
     <Layer>
       <Nav />
