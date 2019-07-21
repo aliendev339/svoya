@@ -1,7 +1,7 @@
 import React from "react"
 
 import Layer from "./layer"
-import Nav from "./nav"
+// import Nav from "./nav"
 import Overlay from "./overlay"
 
 const MainContent = () => (
@@ -18,6 +18,9 @@ const MainContent = () => (
     <Layer>
       <Nav />
     </Layer>
+    {/* <Layer>
+      <Nav />
+    </Layer> */}
   </section>
 )
 
