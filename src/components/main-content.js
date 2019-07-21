@@ -24,8 +24,8 @@ const MainContent = () => (
             <span className="block w-2/3 border-white border-b-2"></span>
           </button>
         </div>
-        <div className="leading-tight">
-          <h2 className="text-gray-100">Interior</h2>
+        <div className="leading-snug">
+          <h2 className="text-gray-100 text-xs">Interior</h2>
           <h1 className="text-3xl font-semibold">The Apartment</h1>
         </div>
       </div>
