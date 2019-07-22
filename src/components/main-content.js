@@ -22,14 +22,14 @@ const MainContent = () => {
         <Overlay />
       </Layer>
       <Layer>
-        <div className="h-screen w-screen flex flex-col justify-between items-start px-4 pt-4 pb-8">
+        <div className="h-screen w-screen flex flex-col justify-between items-start px-6 pt-6 pb-8">
           <div className="w-full flex justify-between items-start leading-none z-10">
             <p className="font-bold">Logo</p>
             <MenuButton toggle={toggle} />
           </div>
           <div className="leading-snug">
             <h2 className="text-gray-100 text-xs">Interior</h2>
-            <h1 className="text-3xl font-semibold">The Apartment</h1>
+            <h1 className="text-4xl font-semibold">The Apartment</h1>
           </div>
         </div>
       </Layer>
