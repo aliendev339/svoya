@@ -10,7 +10,7 @@ const Menu = ({ isActive }) => (
         <li>Industrial Design</li>
         <li>Interior</li>
       </ul>
-      <ul className="leading-loose">
+      <ul className="leading-loose pb-8">
         <li>Press</li>
         <li>About Studio</li>
         <li>Awards</li>
