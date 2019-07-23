@@ -16,11 +16,6 @@ const Menu = ({ isActive }) => (
         <li>Awards</li>
         <li>Contact</li>
       </ul>
-      <ul className="w-full flex justify-end">
-        <li className="pr-4">F</li>
-        <li className="pr-4">I</li>
-        <li>T</li>
-      </ul>
     </nav>
   </Layer>
 )
