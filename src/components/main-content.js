@@ -1,7 +1,6 @@
 import React from "react"
 
 import Layer from "./layer"
-import Overlay from "./overlay"
 import MenuButton from "./menu-button"
 import Menu from "./menu"
 
@@ -12,15 +11,8 @@ const MainContent = () => {
 
   return (
     <section>
-      <Layer level={0}>
-        <img
-          src="./apartment-architecture-art-276724.jpg"
-          alt="An apartment"
-          className="object-cover h-full w-screen" />
-      </Layer>
-      <Layer level={1}>
-        <Overlay />
-      </Layer>
+      <Layer image="./apartment-architecture-art-276724.jpg" />
+      <Layer hidden image="./apartment-clean-condominium-279719.jpg" />
       <div>
         <div className="h-screen w-screen flex flex-col justify-between items-start px-6 pt-6 pb-8">
           <div className="w-full flex justify-between items-start leading-none z-50">

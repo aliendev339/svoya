@@ -2,8 +2,8 @@ import React from "react"
 import Layer from "./layer";
 
 const Menu = ({ isActive }) => (
-  <Layer level={2}>
-    <nav className={`${isActive ? "block" : "hidden"} h-screen w-screen bg-gray-800 px-6 pt-48`}>
+  <Layer hidden={!isActive} level={2}>
+    <nav className={`h-screen w-screen bg-gray-800 px-6 pt-48`}>
       <ul className="text-3xl text-gray-400 pb-16 leading-relaxed">
         <li className="text-4xl text-white font-semibold">All Projects</li>
         <li>Architecture</li>
