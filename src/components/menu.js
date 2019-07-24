@@ -9,7 +9,7 @@ const Menu = ({ isOpen }) => {
   })
 
   return transitions.map(({ item, props, key }) => (
-      item && <animated.div className={`h-screen fixed inset-0 z-10`} style={props}>
+      item && <animated.div key={key} className={`h-screen fixed inset-0 z-10`} style={props}>
       <nav className={`h-screen w-screen bg-gray-900 px-6 pt-48`}>
         <ul className="text-3xl text-gray-400 pb-16 leading-relaxed">
           <li className="text-4xl text-white font-semibold">All Projects</li>
