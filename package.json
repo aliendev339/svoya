@@ -16,7 +16,6 @@
     "gatsby": "^2.13.25",
     "gatsby-plugin-postcss": "^2.1.2",
     "react": "^16.8.6",
-    "react-div-100vh": "^0.3.4",
     "react-dom": "^16.8.6",
     "react-spring": "^8.0.27"
   },
