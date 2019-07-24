@@ -1,8 +1,8 @@
 import React from "react"
 import { animated, useTransition } from "react-spring";
 
-const Menu = ({ isActive }) => {
-  const transitions = useTransition(isActive, null, {
+const Menu = ({ isOpen }) => {
+  const transitions = useTransition(isOpen, null, {
     from: { transform: 'translateY(100%)' },
     enter: { transform: 'translateY(0%)' },
     leave: { transform: 'translateY(100%)' },
